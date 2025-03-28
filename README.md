@@ -12,6 +12,12 @@ Welcome to CodeZen Editor, a sleek, fast, and intuitive online code editor that 
 
 🔹 **Copy Code:** Easily scopy your work and use it anywhere.
 
+# 📼 Video Demo
+
+
+https://github.com/user-attachments/assets/fd22b61b-8802-4243-b712-f6bc3d7033b9
+
+
 
 # 🏗 Techonology
 - HTML

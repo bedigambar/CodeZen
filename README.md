@@ -3,10 +3,15 @@ Welcome to CodeZen Editor, a sleek, fast, and intuitive online code editor that 
 
 # 🖥 Features
 🔹 **Real-time Code Editor:** Write and edit HTML, CSS, and JavaScript simultaneously.
+
 🔹 **Responsive Design:** Code and preview on any device, from desktops to mobiles.
+
 🔹 **Live Preview:** Instantly see the results of your code.
+
 🔹 **Syntax Highlighting:** Powered by CodeMirror for improved code readability.
+
 🔹 **Copy Code:** Easily scopy your work and use it anywhere.
+
 
 # 🏗 Techonology
 - HTML

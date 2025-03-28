@@ -29,3 +29,5 @@ Welcome to CodeZen Editor, a sleek, fast, and intuitive online code editor that 
 4. See the live preview update in real-time.
 5. Enjoy syntax highlighting and an intuitive coding experience.
 
+# 📜 License
+This project is licensed under the **[MIT License](https://github.com/bedigambar/CodeZen/blob/main/LICENSE)**

@@ -21,10 +21,10 @@ Welcome to CodeZen Editor, a sleek, fast, and intuitive online code editor that 
 - Font Awesome for Icons
 
 # <ins>🪧 Live demo:</ins>
-[CodeZen]()
+[CodeZen](https://codezen-editor.netlify.app/)
 
 # 🔧 How to Use
-1. Open the Live Demo link in a web browser.
+1. Open the [Live Demo](https://codezen-editor.netlify.app/) link in a web browser.
 2. Use the three separate panels for HTML, CSS, and JavaScript.
 3. Write your code in the respective panels.
 4. See the live preview update in real-time.

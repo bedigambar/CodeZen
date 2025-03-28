@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeZen Editor🖥</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/assets/uplogo.png">
+    <!-- CodeMirror CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/codemirror.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/theme/monokai.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@700&family=Geist:wght@100..900&display=swap');
+    </style>
+    <script src="https://kit.fontawesome.com/b6fe51c8e7.js" crossorigin="anonymous"></script>
+</head>
+<body id="main-bod">
+    <navbar class="edit-nav">
+        <div class="logo"><a href="index.html">
+            <img src="/assets/logo.png" alt="Logo">
+        </a></div>
+        <div class="buttons">
+            <a href="https://x.com/veyroncx__" class="social-btn" target="_blank">TWITTER</a>
+            <a href="index.html" class="compile-btn">Go Home</a>
+        </div>
+    </navbar>
+    <main class="edito">
+        <h1><span class="grad-text">Commence Coding</span></h1>
+        <p class="sub-txt" id="subTEXT">Enter your code in the editor below, and watch it instantly appear in the live preview at the bottom.</p>
+        <div class="container">
+            <div class="coding-area">
+                <div class="html-codes">
+                    <label>
+                        <div class="label-text"><span class="emojis"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Desktop%20Computer.png" alt="Desktop Computer" width="25" height="25" /> </span>Build the structure using HTML</div>
+                        <div class="label-btn"><button onclick="copyContentofhtml()" id="copyCode">Copy to Clipboard</button></div>
+                    </label>
+                    <textarea id="htmlCode" rows="4" cols="50" placeholder="Write HTML code here..."></textarea>
+                </div>
+                <div class="css-code">
+                    <label>
+                        <div class="label-text"><span class="emojis"> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Artist%20Light%20Skin%20Tone.png" alt="Artist Light Skin Tone" width="25" height="25" /> </span>Apply CSS to style your code</div>
+                        <div class="label-btn"><button onclick="copyContentofcss()" id="copyCode">Copy to Clipboard</button></div>
+                    </label>
+                    <textarea id="cssCode" rows="4" cols="50" placeholder="Write CSS code here..."></textarea>
+                </div>
+                <div class="js-code">
+                    <label>
+                        <div class="label-text"><span class="emojis"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Camera%20with%20Flash.png" alt="Camera with Flash" width="25" height="25" /> </span>Introduce interactivity using JS</div>
+                        <div class="label-btn"><button onclick="copyContentofjs()" id="copyCode">Copy to Clipboard</button></div>
+                    </label>
+                    <textarea id="jsCode" rows="4" cols="50" placeholder="Write JavaScript code here..."></textarea>
+                </div>
+            </div>
+            <div class="code-preview">
+                <div class="display-codes">
+                    <label for="w3review">
+                        <div class="label-text">See your<span class="grad-txt">code</span>in action</div>
+                    </label>
+                    <iframe id="output"></iframe>
+                </div>
+            </div>
+        </div>
+    </main>    
+    <footer>
+        <div class="details">
+            <div class="logo"><a href="index.html">
+                <img src="/assets/logo.png" alt="Logo">
+            </a></div>
+        </div>
+        <div class="sns-sites">
+            <a href="https://github.com/bedigambar" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://x.com/veyroncx__" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+    </footer>
+    <!-- CodeMirror JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/mode/xml/xml.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/mode/css/css.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/mode/javascript/javascript.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

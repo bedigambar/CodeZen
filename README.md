@@ -20,7 +20,7 @@ Welcome to CodeZen Editor, a sleek, fast, and intuitive online code editor that 
 - CodeMirror (for syntax highlighting and code editing)
 - [Font Awesome](https://fontawesome.com/) for Icons
 
-# <ins>🪧 Live demo:</ins>
+# 🪧 <ins>Live demo:</ins>
 🔹 **[CodeZen](https://codezen-editor.netlify.app/)**
 
 # 🔧 How to Use

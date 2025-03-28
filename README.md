@@ -15,7 +15,8 @@ Welcome to CodeZen Editor, a sleek, fast, and intuitive online code editor that 
 # 📼 Video Demo
 
 
-https://github.com/user-attachments/assets/fd22b61b-8802-4243-b712-f6bc3d7033b9
+
+https://github.com/user-attachments/assets/0d0f5f5d-56af-48fb-850f-64a82238e28c
 
 
 

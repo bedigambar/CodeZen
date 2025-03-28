@@ -18,6 +18,7 @@ Welcome to CodeZen Editor, a sleek, fast, and intuitive online code editor that 
 - CSS
 - JavaScript
 - CodeMirror (for syntax highlighting and code editing)
+- Font Awesome for Icons
 
 # <ins>🪧 Live demo:</ins>
 [CodeZen]()
